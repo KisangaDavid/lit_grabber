@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 START_URL = "" # Enter the url for the chapter you want to start from
-END_URL = "https://www.litcharts.com/lit/the-social-contract/book-2-chapter-9-the-people-continued" # Enter the url for the chapter you want to end on (exclusive)
+END_URL = "" # Enter the url for the chapter you want to end on (exclusive)
 cur_url = START_URL
 
 while cur_url != END_URL:
